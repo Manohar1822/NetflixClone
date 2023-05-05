@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/public/assests/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style2.css">
+  </head>
+<body>
+  <div id="app">
+
+    <div class="navbar">
+      <div class="logo">
+        <img class="navicon" src="/assests/nav-icon.png" alt="icon">
+      </div>
+      <div class="buttons">
+        <button class="lang"><i class="fa-solid fa-globe "></i> English </button>
+        <a class="anchor"href="/" role="button"><button class="signin">Register</button></a>
+      </div>
+    </div>
+    <div class="navbar">
+      <div class="logo"></div>
+      <div class="button"></div>
+    </div>
+    <!-- Home page -->
+    <section id="sec1">
+      <div class="cover"></div>
+      <img class="bg" width="120%" style="height: fit-content;" src="assests/bg.jpg" alt="BG">
+      <div class="signIn-content" style="opacity: 70%;">
+        <div >
+        <br><br><br><br>
+        <h1 style="color: aliceblue; position: relative; padding-right: 25vw;">Sign In</h1>
+        <br><br><br>
+        <div class="contact">
+            <form action="/signIn" method="post">
+            <input id="input" name="username" type="email" placeholder="Email address">
+            <p style="color:red;"><%= message %> </p>
+
+            <p></p>
+            <br><br><br><br>
+            <input id="input" name="password" type="password" placeholder="Password">
+            <br><br><br><br>
+            <input class="signInBtn" type="submit" value="Sign In">
+            
+          </form>
+            <br><br>
+            <span>
+            <input type="checkbox" name="remember me" id="">Remember me
+            <a href="https://www.netflix.com/in/LoginHelp" style="margin-left: 15vw;">Need help?</a>
+        </span>
+        <br><br><br><br><br><br>
+        <h3 style="display: inline;left: 5px;">New to Netflix? <h1 style="display: inline; padding-right: 10vw;"> Sign Up Now</h1></h3>
+        <br><br>
+        <div style="width: 60%; left: 10vw; position: relative;">
+        <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.</p>
+    </div>
+        </div>
+    </div>
+      </div>
+      </section>
+      </div>
+      </body>
+      

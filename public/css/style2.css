@@ -1,0 +1,137 @@
+/* /=================================== section 2 ============================================ */
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 83%;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .parallex {
+    position: absolute;
+    top: 80%;
+    width: 100vw;
+  }
+  
+  .card-container {
+    margin: 10px;
+    background: #642b73;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom right,
+        #0a133a,
+        #410e20);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom right,
+        #0a133a,
+        #410e20);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 20px;
+  }
+  
+  .card-img {
+    width: 80%;
+  }
+  
+  
+  .FAQC {
+    color: aliceblue;
+  }
+  
+  #FAQ {
+    position: static;
+    margin-left: 0px;
+    text-align: left;
+  }
+  
+  .faq-container {
+    width: 80vw;
+    background-color: #132144;
+    padding: 25px;
+    
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+    visibility: visible;
+  }
+  .faq-container:hover{
+    background-color:#642b73;
+  }
+  .plusBtn{
+    background-color: #132144;
+    box-shadow: none;
+  }
+
+  .faq-content{
+    width: 80vw;
+    margin-top: 0;
+    background-color: #132144;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+    visibility: visible;
+    display:none;
+  }
+  .faqDiv{
+    margin: 14px;
+    width: 80vw;
+    cursor: pointer;
+  }
+
+  #signInId{
+    padding: 0px 16px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    margin: 0px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    border: none;
+  }
+
+  .signIn-content{
+    background-color: black;
+    position: absolute;
+    text-align: center;
+    left: 25vw;
+    top: 23%;
+    display: flex;
+    flex-direction:column;
+    
+    width: 50vw;
+    height: 125vh;
+  }
+
+  .signInBtn{
+    padding: 14px 20px;
+    background-color:red;
+    border-color: aliceblue;
+    border-radius: 5px;
+    width:60%;
+
+    font-weight:900;
+    font-size: x-large;
+  }
+
+  a{
+    cursor: pointer;
+  }
+  
+  button{
+    cursor: pointer;
+  }
+
+  .getstart{
+    cursor: pointer;
+  }
